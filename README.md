@@ -1,10 +1,11 @@
-# TEMPLATE
+# Collaborative Annotation with Apollo 3
 
 This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgacademy.org/)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/TEMPLATE)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/apollo3-annotation)
 
 ## Session Leader(s)
+
 
 
 ## Description
