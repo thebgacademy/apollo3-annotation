@@ -7,12 +7,16 @@ This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgac
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/apollo3-annotation) 
 
 ## Session Leader(s)
+Garrett Stevens
 
+Dario Beraldi
+
+Shashank Gowda
 
 
 ## Description
 
-
+We will be using Apollo 3 running in JBrowse 2 to view and edit genome annotations. We will also cover how to set up Apollo 3 with your own data for both individual and collaborative use.
 
 ## Prerequisites
 
