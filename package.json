@@ -1,0 +1,8 @@
+{
+  "name": "apollo3-annotation",
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "@apollo-annotation/cli": "^0.1.19",
+    "@jbrowse/cli": "^2.15.4"
+  }
+}

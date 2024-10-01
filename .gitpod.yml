@@ -1,14 +1,11 @@
 image: gitpod/workspace-full-vnc
 
-- name: SETUP
-  init: |
-    echo "Hello there - Welcome to GitPod
+tasks:
+  - name: Run
+    command: docker compose up
 
 ports:
-  - port: 5900
+  - port: 80
     onOpen: ignore
-  - port: 6080
-    onOpen: open-browser
-    visibility: public
 
 workspaceLocation: "/workspace"
