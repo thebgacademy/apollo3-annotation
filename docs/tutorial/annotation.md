@@ -1,3 +1,6 @@
+To get to Apollo, under the "Ports" tab at the bottom of GitPod, find the port
+labeled "80" and click on the icon "Open in browser" for that port.
+
 Click on Linear Genome View on the JBrowse start screen.
 
 Click on "Continue as Guest"
