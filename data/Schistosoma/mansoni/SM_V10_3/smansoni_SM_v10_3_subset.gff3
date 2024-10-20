@@ -1,16 +1,16 @@
 ##gff-version 3
 ##sequence-region SM_V10_3 1 49793710
 # Gene gene:Smp_004310
-SM_V10_3	WormBase_imported	gene	9658336	9659388	.	+	.	ID=gene:Smp_004310;Name=Smp_004310;biotype=protein_coding;description=V-type proton ATPase proteolipid subunit;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI9
-SM_V10_3	WormBase_imported	mRNA	9658336	9659388	.	+	.	ID=transcript:Smp_004310.1;Parent=gene:Smp_004310;Name=Smp_004310.1;info=method:InterPro accession:IPR000245 description:V-ATPase proteolipid subunit %0Amethod:InterPro accession:IPR002379 description:V-ATPase proteolipid subunit C-like domain %0Amethod:InterPro accession:IPR011555 description:V-ATPase proteolipid subunit C%2C eukaryotic %0Amethod:InterPro accession:IPR035921 description:F/V-ATP synthase subunit C superfamily
+SM_V10_3	WormBase_imported	gene	9658336	9659038	.	+	.	ID=gene:Smp_004310;Name=Smp_004310;biotype=protein_coding;description=V-type proton ATPase proteolipid subunit;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI9
+SM_V10_3	WormBase_imported	mRNA	9658336	9659038	.	+	.	ID=transcript:Smp_004310.1;Parent=gene:Smp_004310;Name=Smp_004310.1;info=method:InterPro accession:IPR000245 description:V-ATPase proteolipid subunit %0Amethod:InterPro accession:IPR002379 description:V-ATPase proteolipid subunit C-like domain %0Amethod:InterPro accession:IPR011555 description:V-ATPase proteolipid subunit C%2C eukaryotic %0Amethod:InterPro accession:IPR035921 description:F/V-ATP synthase subunit C superfamily
 SM_V10_3	WormBase_imported	exon	9658336	9658469	.	+	.	ID=exon:Smp_004310.1.1;Parent=transcript:Smp_004310.1
 SM_V10_3	WormBase_imported	exon	9658501	9658684	.	+	.	ID=exon:Smp_004310.1.2;Parent=transcript:Smp_004310.1
-SM_V10_3	WormBase_imported	exon	9658722	9659388	.	+	.	ID=exon:Smp_004310.1.3;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	exon	9658722	9659038	.	+	.	ID=exon:Smp_004310.1.3;Parent=transcript:Smp_004310.1
 SM_V10_3	WormBase_imported	five_prime_UTR	9658336	9658396	.	+	.	Parent=transcript:Smp_004310.1
 SM_V10_3	WormBase_imported	CDS	9658397	9658469	.	+	0	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
 SM_V10_3	WormBase_imported	CDS	9658501	9658684	.	+	2	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
-SM_V10_3	WormBase_imported	CDS	9658722	9658926	.	+	1	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
-SM_V10_3	WormBase_imported	three_prime_UTR	9658927	9659388	.	+	.	Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	CDS	9658722	9658923	.	+	1	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9658927	9659038	.	+	.	Parent=transcript:Smp_004310.1
 ###
 # Gene gene:Smp_004350
 SM_V10_3	WormBase_imported	gene	9609087	9614296	.	+	.	ID=gene:Smp_004350;Name=Smp_004350;biotype=protein_coding;description=Ubiquitin-conjugating enzyme E2 l%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI7
