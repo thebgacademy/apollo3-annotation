@@ -1,13 +1,13 @@
 name: apollo-local-testing
 services:
   apollo-collaboration-server:
-    image: "ghcr.io/gmod/apollo-collaboration-server"
+    image: "ghcr.io/gmod/apollo-collaboration-server:dev"
     depends_on:
       db:
         condition: service_healthy
     environment:
       NAME: My Local Testing Server
-      URL: "http://localhost/apollo/"
+      URL: "PUT_GITPOD_URL_HERE"
       MONGODB_URI: "mongodb://db:27017/apolloDb?replicaSet=rs0"
       FILE_UPLOAD_FOLDER: /data/uploads
       ALLOW_GUEST_USER: true
@@ -54,6 +54,8 @@ services:
       - apollo-collaboration-server
     ports:
       - "80:80"
+    volumes:
+      - "./jbrowse_data:/usr/local/apache2/htdocs/data"
 
   db:
     image: "mongo:7"
@@ -66,7 +68,6 @@ services:
     healthcheck:
       interval: 30s
       retries: 3
-      start_interval: 5s
       start_period: 2m
       test: |
         mongosh --port 27017 --quiet --eval "

@@ -1,8 +1,21 @@
-To get our environment up and running, run this command in the terminal:
+We'll need to do a little configuration to get GitPod to host Apollo correctly.
+First open a terminal and run:
 
 ```sh
-docker compose up
+gp url
 ```
+
+Now open the file `compose.yml` and put the URL that was printed in the `URL`
+placeholder on line 10. You'll then need to add `80-` to the beginning of the
+URL and `/apollo/` at the end of the URL. So if the URL you got was
+https://thebgacadem-apollo3anno-3aysn3477f9.ws-us189.gitpod.io, then line 10
+should look like:
+
+```yml
+URL: "https://80-thebgacadem-apollo3anno-3aysn3477f9.ws-us189.gitpod.io/apollo/"
+```
+
+Now in the terminal, run `docker compose up`.
 
 Open a new terminal for the rest of the commands. The first step is to configure
 the Apollo CLI with the information for the running Apollo installation. You can
@@ -10,7 +23,8 @@ have multiple profiles configured, but we will use a single default profile. Run
 these commands:
 
 ```sh
-apollo config address http://host.docker.internal/apollo
+cd apollo3-annotation/
+apollo config address http://localhost/apollo
 apollo config accessType root
 apollo config rootCredentials.username root
 apollo config rootCredentials.password password
@@ -112,14 +126,17 @@ the CLI to try and copy or alter any files.
 jbrowse add-track \
   data/smansoni_SM_v10_3_subset.cram \
   --load inPlace \
+  --name "S. mansoni RNA-seq" \
   --assemblyNames "${MANSONI_ID}"
 jbrowse add-track \
   data/shaematobium_CHR_3_subset.cram \
   --load inPlace \
+  --name "S. haematobium RNA-seq" \
   --assemblyNames "${HAEMATOBIUM_ID}"
 jbrowse add-track \
   data/shaematobium_vs_smansoni.paf \
   --load inPlace \
+  --name "S. haematobium vs. S. mansoni TBLASTX" \
   --assemblyNames "${HAEMATOBIUM_ID}","${MANSONI_ID}"
 ```
 
