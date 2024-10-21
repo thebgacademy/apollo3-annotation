@@ -18,15 +18,25 @@ Select track called "Annotations (Schistosoma mansoni)
 Try out clicking and dragging to move back and forth, as well as using the arrow
 buttons in the header. Also try out clicking the zoom buttons.
 
-Let's focus on the end of the CDS. Click and drag in the ruler the area around
+Let's focus on the end of the CDS. If we hover over the warning, we'll see that
+the CDS is missing a stop codon. Click and drag in the ruler the area around
 the  end of the CDS and then select "Zoom to region". We can see that the CDS
 stop short of the stop codon. Click and drag the right side of the CDS 3 bases
-to the right to fix it. Zoom back out so you can see the whole gene again.
+to the right to fix it. Zoom back out so you can see the whole gene again, and
+you will see the warning about the stop codon is gone as well.
 
 Now click the checkbox to open the RNA-seq track. It looks like this feature's
-3\` UTR is actually longer. Let's extend the exon to fix that. Right-click on
-the exon and choose "Edit feature details". Change the "End" box to `9659388`
-and see that it extends.
+3\` UTR is actually longer. Let's extend the exon to fix that. Click on the
+track menu (the three dots next to the track name label) and select "Appearance
+-> Show both graphical and table display. A table showing the information about
+the current annotation is now shown at the bottom of the track. In the "gene"
+row, change then "end" value to `9659388`, and then do the same for the "mRNA"
+column.
+
+We could also do the same for the exon, but we'll do it a different way as a
+demonstraction. Right-click on the exon and choose "Edit feature details".
+Change the "End" box in the new panel to `9659388` and see that the exon
+extends.
 
 Next click "Add new" in that same panel and add "Note" as a custom attribute
 key. Click "Add", and then in the newly added "Note" attribute, add some text
