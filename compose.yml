@@ -7,7 +7,7 @@ services:
         condition: service_healthy
     environment:
       NAME: My Local Testing Server
-      URL: "http://localhost/apollo/"
+      URL: "PUT_GITPOD_URL_HERE"
       MONGODB_URI: "mongodb://db:27017/apolloDb?replicaSet=rs0"
       FILE_UPLOAD_FOLDER: /data/uploads
       ALLOW_GUEST_USER: true
@@ -49,11 +49,15 @@ services:
         wget --output-document=- --quiet https://registry.npmjs.org/@apollo-annotation/jbrowse-plugin-apollo/-/jbrowse-plugin-apollo-0.1.19.tgz | \
         tar --extract --gzip --file=- --strip=2 package/dist/jbrowse-plugin-apollo.umd.production.min.js
         mv jbrowse-plugin-apollo.umd.production.min.js apollo.js
+        wget --quiet https://github.com/The-Sequence-Ontology/SO-Ontologies/raw/refs/heads/master/Ontology_Files/so.json
+        mv so.json sequence_ontology.json
         EOF
     depends_on:
       - apollo-collaboration-server
     ports:
       - "80:80"
+    volumes:
+      - "./jbrowse_data:/usr/local/apache2/htdocs/data"
 
   db:
     image: "mongo:7"
@@ -66,7 +70,6 @@ services:
     healthcheck:
       interval: 30s
       retries: 3
-      start_interval: 5s
       start_period: 2m
       test: |
         mongosh --port 27017 --quiet --eval "

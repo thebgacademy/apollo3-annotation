@@ -1,8 +1,9 @@
 image: gitpod/workspace-full-vnc
 
 tasks:
-  - name: Run
-    command: docker compose up
+  - name: Start Apollo
+    init: npm install --global @jbrowse/cli @apollo-annotation/cli
+    command: echo done
 
 ports:
   - port: 80

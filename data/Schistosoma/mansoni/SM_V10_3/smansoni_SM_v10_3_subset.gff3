@@ -1,0 +1,511 @@
+##gff-version 3
+##sequence-region SM_V10_3 1 49793710
+# Gene gene:Smp_004310
+SM_V10_3	WormBase_imported	gene	9658336	9659038	.	+	.	ID=gene:Smp_004310;Name=Smp_004310;biotype=protein_coding;description=V-type proton ATPase proteolipid subunit;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI9
+SM_V10_3	WormBase_imported	mRNA	9658336	9659038	.	+	.	ID=transcript:Smp_004310.1;Parent=gene:Smp_004310;Name=Smp_004310.1;info=method:InterPro accession:IPR000245 description:V-ATPase proteolipid subunit %0Amethod:InterPro accession:IPR002379 description:V-ATPase proteolipid subunit C-like domain %0Amethod:InterPro accession:IPR011555 description:V-ATPase proteolipid subunit C%2C eukaryotic %0Amethod:InterPro accession:IPR035921 description:F/V-ATP synthase subunit C superfamily
+SM_V10_3	WormBase_imported	exon	9658336	9658469	.	+	.	ID=exon:Smp_004310.1.1;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	exon	9658501	9658684	.	+	.	ID=exon:Smp_004310.1.2;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	exon	9658722	9659038	.	+	.	ID=exon:Smp_004310.1.3;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9658336	9658396	.	+	.	Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	CDS	9658397	9658469	.	+	0	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	CDS	9658501	9658684	.	+	2	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	CDS	9658722	9658923	.	+	1	ID=cds:Smp_004310.1;Parent=transcript:Smp_004310.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9658927	9659038	.	+	.	Parent=transcript:Smp_004310.1
+###
+# Gene gene:Smp_004350
+SM_V10_3	WormBase_imported	gene	9609087	9614296	.	+	.	ID=gene:Smp_004350;Name=Smp_004350;biotype=protein_coding;description=Ubiquitin-conjugating enzyme E2 l%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI7
+SM_V10_3	WormBase_imported	mRNA	9609087	9614296	.	+	.	ID=transcript:Smp_004350.1;Parent=gene:Smp_004350;Name=Smp_004350.1;info=method:InterPro accession:IPR000608 description:Ubiquitin-conjugating enzyme E2 %0Amethod:InterPro accession:IPR016135 description:Ubiquitin-conjugating enzyme/RWD-like %0Amethod:InterPro accession:IPR023313 description:Ubiquitin-conjugating enzyme%2C active site
+SM_V10_3	WormBase_imported	exon	9609087	9609273	.	+	.	ID=exon:Smp_004350.1.1;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	exon	9610842	9610940	.	+	.	ID=exon:Smp_004350.1.2;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	exon	9612223	9612409	.	+	.	ID=exon:Smp_004350.1.3;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	exon	9613535	9614296	.	+	.	ID=exon:Smp_004350.1.4;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9609087	9609243	.	+	.	Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	CDS	9609244	9609273	.	+	0	ID=cds:Smp_004350.1;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	CDS	9610842	9610940	.	+	0	ID=cds:Smp_004350.1;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	CDS	9612223	9612409	.	+	0	ID=cds:Smp_004350.1;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	CDS	9613535	9613689	.	+	2	ID=cds:Smp_004350.1;Parent=transcript:Smp_004350.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9613690	9614296	.	+	.	Parent=transcript:Smp_004350.1
+###
+# Gene gene:Smp_004360
+SM_V10_3	WormBase_imported	gene	9594688	9599143	.	-	.	ID=gene:Smp_004360;Name=Smp_004360;biotype=protein_coding;description=Coiled-coil domain-containing protein 124;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI6
+SM_V10_3	WormBase_imported	mRNA	9594688	9599143	.	-	.	ID=transcript:Smp_004360.1;Parent=gene:Smp_004360;Name=Smp_004360.1;info=method:InterPro accession:IPR010422 description:Coiled-coil domain-containing protein 124/Oxs1 %0Amethod:InterPro accession:IPR036910 description:High mobility group box domain superfamily
+SM_V10_3	WormBase_imported	exon	9599043	9599143	.	-	.	ID=exon:Smp_004360.1.1;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	exon	9598895	9599005	.	-	.	ID=exon:Smp_004360.1.2;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	exon	9598684	9598851	.	-	.	ID=exon:Smp_004360.1.3;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	exon	9598355	9598650	.	-	.	ID=exon:Smp_004360.1.4;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	exon	9594688	9595143	.	-	.	ID=exon:Smp_004360.1.5;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9599043	9599143	.	-	.	Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9598895	9599005	.	-	.	Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9598840	9598851	.	-	.	Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	CDS	9598684	9598839	.	-	0	ID=cds:Smp_004360.1;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	CDS	9598355	9598650	.	-	0	ID=cds:Smp_004360.1;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	CDS	9594936	9595143	.	-	1	ID=cds:Smp_004360.1;Parent=transcript:Smp_004360.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9594688	9594935	.	-	.	Parent=transcript:Smp_004360.1
+###
+# Gene gene:Smp_004420
+SM_V10_3	WormBase_imported	gene	9442833	9447920	.	+	.	ID=gene:Smp_004420;Name=Smp_004420;biotype=protein_coding
+SM_V10_3	WormBase_imported	mRNA	9442833	9447920	.	+	.	ID=transcript:Smp_004420.1;Parent=gene:Smp_004420;Name=Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9442833	9442946	.	+	.	ID=exon:Smp_004420.1.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9443961	9444115	.	+	.	ID=exon:Smp_004420.1.2;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9444151	9444308	.	+	.	ID=exon:Smp_004420.1.3;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9444685	9444775	.	+	.	ID=exon:Smp_004420.1.4;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9445313	9445540	.	+	.	ID=exon:Smp_004420.1.5;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	exon	9447537	9447920	.	+	.	ID=exon:Smp_004420.1.6;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9442833	9442909	.	+	.	Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9442910	9442946	.	+	0	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9443961	9444115	.	+	2	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9444151	9444308	.	+	0	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9444685	9444775	.	+	1	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9445313	9445540	.	+	0	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	CDS	9447537	9447764	.	+	0	ID=cds:Smp_004420.1;Parent=transcript:Smp_004420.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9447765	9447920	.	+	.	Parent=transcript:Smp_004420.1
+###
+# Gene gene:Smp_004440
+SM_V10_3	WormBase_imported	gene	9339238	9371163	.	-	.	ID=gene:Smp_004440;Name=Smp_004440;biotype=protein_coding;description=NXPE family member 3-like;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KBR3
+SM_V10_3	WormBase_imported	mRNA	9339238	9371163	.	-	.	ID=transcript:Smp_004440.1;Parent=gene:Smp_004440;Name=Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9371057	9371163	.	-	.	ID=exon:Smp_004440.1.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9370945	9371004	.	-	.	ID=exon:Smp_004440.1.2;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9367221	9367335	.	-	.	ID=exon:Smp_004440.1.3;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9364831	9364951	.	-	.	ID=exon:Smp_004440.1.4;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9362533	9362752	.	-	.	ID=exon:Smp_004440.1.5;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9359869	9360055	.	-	.	ID=exon:Smp_004440.1.6;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9351525	9351715	.	-	.	ID=exon:Smp_004440.1.7;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9345853	9346079	.	-	.	ID=exon:Smp_004440.1.8;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9344948	9345046	.	-	.	ID=exon:Smp_004440.1.9;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9342014	9342101	.	-	.	ID=exon:Smp_004440.1.10;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	exon	9339238	9339593	.	-	.	ID=exon:Smp_004440.1.11;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9371135	9371163	.	-	.	Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9371057	9371134	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9370945	9371004	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9367221	9367335	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9364831	9364951	.	-	2	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9362533	9362752	.	-	1	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9359869	9360055	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9351525	9351715	.	-	2	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9345853	9346079	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9344948	9345046	.	-	1	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9342014	9342101	.	-	1	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	CDS	9339438	9339593	.	-	0	ID=cds:Smp_004440.1;Parent=transcript:Smp_004440.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9339238	9339437	.	-	.	Parent=transcript:Smp_004440.1
+###
+# Gene gene:Smp_004470
+SM_V10_3	WormBase_imported	gene	9254947	9258366	.	+	.	ID=gene:Smp_004470;Name=Smp_004470;biotype=protein_coding;description=Peroxiredoxin%2C Prx3;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXH7;locus=TPx3
+SM_V10_3	WormBase_imported	mRNA	9254947	9258366	.	+	.	ID=transcript:Smp_004470.1;Parent=gene:Smp_004470;Name=Smp_004470.1;info=method:InterPro accession:IPR000866 description:Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant %0Amethod:InterPro accession:IPR013766 description:Thioredoxin domain %0Amethod:InterPro accession:IPR019479 description:Peroxiredoxin%2C C-terminal %0Amethod:InterPro accession:IPR024706 description:Peroxiredoxin%2C AhpC-type %0Amethod:InterPro accession:IPR036249 description:Thioredoxin-like superfamily
+SM_V10_3	WormBase_imported	exon	9254947	9256043	.	+	.	ID=exon:Smp_004470.1.1;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	exon	9256931	9257165	.	+	.	ID=exon:Smp_004470.1.2;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	exon	9258056	9258366	.	+	.	ID=exon:Smp_004470.1.3;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9254947	9255704	.	+	.	Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	CDS	9255705	9256043	.	+	0	ID=cds:Smp_004470.1;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	CDS	9256931	9257165	.	+	0	ID=cds:Smp_004470.1;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	CDS	9258056	9258141	.	+	2	ID=cds:Smp_004470.1;Parent=transcript:Smp_004470.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9258142	9258366	.	+	.	Parent=transcript:Smp_004470.1
+###
+# Gene gene:Smp_004480
+SM_V10_3	WormBase_imported	gene	9219337	9232501	.	+	.	ID=gene:Smp_004480;Name=Smp_004480;biotype=protein_coding;description=Red protein (Ik factor) (Cytokine ik)%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXH6
+SM_V10_3	WormBase_imported	mRNA	9219337	9231040	.	+	.	ID=transcript:Smp_004480.1;Parent=gene:Smp_004480;Name=Smp_004480.1;info=method:InterPro accession:IPR012492 description:Protein RED%2C C-terminal %0Amethod:InterPro accession:IPR012916 description:RED-like%2C N-terminal %0Amethod:InterPro accession:IPR039896 description:Protein Red-like
+SM_V10_3	WormBase_imported	mRNA	9219337	9232501	.	+	.	ID=transcript:Smp_004480.2;Parent=gene:Smp_004480;Name=Smp_004480.2;info=method:InterPro accession:IPR012492 description:Protein RED%2C C-terminal %0Amethod:InterPro accession:IPR012916 description:RED-like%2C N-terminal %0Amethod:InterPro accession:IPR039896 description:Protein Red-like
+SM_V10_3	WormBase_imported	exon	9219337	9222063	.	+	.	ID=exon:Smp_004480.1.1;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	exon	9225509	9225828	.	+	.	ID=exon:Smp_004480.1.2;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	exon	9230410	9231040	.	+	.	ID=exon:Smp_004480.1.3;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	exon	9219337	9222063	.	+	.	ID=exon:Smp_004480.2.1;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	exon	9225509	9225828	.	+	.	ID=exon:Smp_004480.2.2;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	exon	9230410	9230778	.	+	.	ID=exon:Smp_004480.2.3;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	exon	9232405	9232501	.	+	.	ID=exon:Smp_004480.2.4;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	five_prime_UTR	9219337	9221009	.	+	.	Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	CDS	9221010	9222063	.	+	0	ID=cds:Smp_004480.1;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	CDS	9225509	9225828	.	+	2	ID=cds:Smp_004480.1;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	CDS	9230410	9230802	.	+	0	ID=cds:Smp_004480.1;Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9230803	9231040	.	+	.	Parent=transcript:Smp_004480.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9219337	9221009	.	+	.	Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	CDS	9221010	9222063	.	+	0	ID=cds:Smp_004480.2;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	CDS	9225509	9225828	.	+	2	ID=cds:Smp_004480.2;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	CDS	9230410	9230778	.	+	0	ID=cds:Smp_004480.2;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	CDS	9232405	9232458	.	+	0	ID=cds:Smp_004480.2;Parent=transcript:Smp_004480.2
+SM_V10_3	WormBase_imported	three_prime_UTR	9232459	9232501	.	+	.	Parent=transcript:Smp_004480.2
+###
+# Gene gene:Smp_004550
+SM_V10_3	WormBase_imported	gene	9025028	9032861	.	-	.	ID=gene:Smp_004550;Name=Smp_004550;biotype=protein_coding;description=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXG8
+SM_V10_3	WormBase_imported	mRNA	9025028	9032861	.	-	.	ID=transcript:Smp_004550.1;Parent=gene:Smp_004550;Name=Smp_004550.1;info=method:InterPro accession:IPR009346 description:GRIM-19
+SM_V10_3	WormBase_imported	exon	9028673	9032861	.	-	.	ID=exon:Smp_004550.1.1;Parent=transcript:Smp_004550.1
+SM_V10_3	WormBase_imported	exon	9025028	9025532	.	-	.	ID=exon:Smp_004550.1.2;Parent=transcript:Smp_004550.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9028761	9032861	.	-	.	Parent=transcript:Smp_004550.1
+SM_V10_3	WormBase_imported	CDS	9028673	9028760	.	-	0	ID=cds:Smp_004550.1;Parent=transcript:Smp_004550.1
+SM_V10_3	WormBase_imported	CDS	9025174	9025532	.	-	2	ID=cds:Smp_004550.1;Parent=transcript:Smp_004550.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9025028	9025173	.	-	.	Parent=transcript:Smp_004550.1
+###
+# Gene gene:Smp_083450
+SM_V10_3	WormBase_imported	gene	9751126	9754429	.	+	.	ID=gene:Smp_083450;Name=Smp_083450;biotype=protein_coding;description=DNAj homolog subfamily C member%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KIJ2
+SM_V10_3	WormBase_imported	mRNA	9751126	9754429	.	+	.	ID=transcript:Smp_083450.1;Parent=gene:Smp_083450;Name=Smp_083450.1;info=method:InterPro accession:IPR001623 description:DnaJ domain %0Amethod:InterPro accession:IPR036869 description:Chaperone J-domain superfamily
+SM_V10_3	WormBase_imported	exon	9751126	9751188	.	+	.	ID=exon:Smp_083450.1.1;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	exon	9753415	9753525	.	+	.	ID=exon:Smp_083450.1.2;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	exon	9753563	9753715	.	+	.	ID=exon:Smp_083450.1.3;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	exon	9753764	9754429	.	+	.	ID=exon:Smp_083450.1.4;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9751126	9751188	.	+	.	Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9753415	9753428	.	+	.	Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	CDS	9753429	9753525	.	+	0	ID=cds:Smp_083450.1;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	CDS	9753563	9753715	.	+	2	ID=cds:Smp_083450.1;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	CDS	9753764	9754341	.	+	2	ID=cds:Smp_083450.1;Parent=transcript:Smp_083450.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9754342	9754429	.	+	.	Parent=transcript:Smp_083450.1
+###
+# Gene gene:Smp_083480
+SM_V10_3	WormBase_imported	gene	9991796	10007168	.	+	.	ID=gene:Smp_083480;Name=Smp_083480;biotype=protein_coding;description=Ig-like domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A5K4EID0
+SM_V10_3	WormBase_imported	mRNA	9991796	10007168	.	+	.	ID=transcript:Smp_083480.1;Parent=gene:Smp_083480;Name=Smp_083480.1;info=method:InterPro accession:IPR013783 description:Immunoglobulin-like fold %0Amethod:InterPro accession:IPR036179 description:Immunoglobulin-like domain superfamily
+SM_V10_3	WormBase_imported	mRNA	9991796	10007168	.	+	.	ID=transcript:Smp_083480.2;Parent=gene:Smp_083480;Name=Smp_083480.2;info=method:InterPro accession:IPR013783 description:Immunoglobulin-like fold %0Amethod:InterPro accession:IPR036179 description:Immunoglobulin-like domain superfamily
+SM_V10_3	WormBase_imported	exon	9991796	9993663	.	+	.	ID=exon:Smp_083480.1.1;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	exon	9994571	9994888	.	+	.	ID=exon:Smp_083480.1.2;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	exon	9996887	9997182	.	+	.	ID=exon:Smp_083480.1.3;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	exon	9999062	9999281	.	+	.	ID=exon:Smp_083480.1.4;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	exon	9991796	9993663	.	+	.	ID=exon:Smp_083480.2.1;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	exon	9994571	9994888	.	+	.	ID=exon:Smp_083480.2.2;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	exon	9996887	9997182	.	+	.	ID=exon:Smp_083480.2.3;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	exon	9999062	9999281	.	+	.	ID=exon:Smp_083480.2.4;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	five_prime_UTR	9991796	9993617	.	+	.	Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	CDS	9993618	9993663	.	+	0	ID=cds:Smp_083480.1;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	CDS	9994571	9994888	.	+	2	ID=cds:Smp_083480.1;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	CDS	9996887	9997182	.	+	2	ID=cds:Smp_083480.1;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	CDS	9999062	9999281	.	+	0	ID=cds:Smp_083480.1;Parent=transcript:Smp_083480.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9991796	9993617	.	+	.	Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	CDS	9993618	9993663	.	+	0	ID=cds:Smp_083480.2;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	CDS	9994571	9994888	.	+	2	ID=cds:Smp_083480.2;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	CDS	9996887	9997182	.	+	2	ID=cds:Smp_083480.2;Parent=transcript:Smp_083480.2
+SM_V10_3	WormBase_imported	CDS	9999062	9999281	.	+	0	ID=cds:Smp_083480.2;Parent=transcript:Smp_083480.2
+###
+# Gene gene:Smp_124460
+SM_V10_3	WormBase_imported	gene	9623112	9636853	.	-	.	ID=gene:Smp_124460;Name=Smp_124460;biotype=protein_coding;description=ATP-binding cassette%2C sub-family E (Oabp)%2Cmember%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KKN9
+SM_V10_3	WormBase_imported	mRNA	9623112	9636853	.	-	.	ID=transcript:Smp_124460.1;Parent=gene:Smp_124460;Name=Smp_124460.1;info=method:InterPro accession:IPR003439 description:ABC transporter-like%2C ATP-binding domain %0Amethod:InterPro accession:IPR003593 description:AAA+ ATPase domain %0Amethod:InterPro accession:IPR007209 description:RNase L inhibitor RLI-like%2C possible metal-binding domain %0Amethod:InterPro accession:IPR013283 description:RLI1 %0Amethod:InterPro accession:IPR017896 description:4Fe-4S ferredoxin-type%2C iron-sulphur binding domain %0Amethod:InterPro accession:IPR017900 description:4Fe-4S ferredoxin%2C iron-sulphur binding%2C conserved site %0Amethod:InterPro accession:IPR027417 description:P-loop containing nucleoside triphosphate hydrolase %0Amethod:InterPro accession:IPR034348 description:RLI%2C domain 1
+SM_V10_3	WormBase_imported	exon	9636704	9636853	.	-	.	ID=exon:Smp_124460.1.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9636368	9636669	.	-	.	ID=exon:Smp_124460.1.2;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9634127	9634334	.	-	.	ID=exon:Smp_124460.1.3;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9633898	9634076	.	-	.	ID=exon:Smp_124460.1.4;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9633634	9633837	.	-	.	ID=exon:Smp_124460.1.5;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9627736	9628113	.	-	.	ID=exon:Smp_124460.1.6;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9625393	9625658	.	-	.	ID=exon:Smp_124460.1.7;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	exon	9623112	9623463	.	-	.	ID=exon:Smp_124460.1.8;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9636822	9636853	.	-	.	Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9636704	9636821	.	-	0	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9636368	9636669	.	-	2	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9634127	9634334	.	-	0	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9633898	9634076	.	-	2	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9633634	9633837	.	-	0	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9627736	9628113	.	-	0	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9625393	9625658	.	-	0	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	CDS	9623304	9623463	.	-	1	ID=cds:Smp_124460.1;Parent=transcript:Smp_124460.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9623112	9623303	.	-	.	Parent=transcript:Smp_124460.1
+###
+# Gene gene:Smp_124490
+SM_V10_3	WormBase_imported	gene	9565798	9580733	.	-	.	ID=gene:Smp_124490;Name=Smp_124490;biotype=protein_coding;description=Retinoblastoma-binding protein-related;description_source=UniProtKB/TrEMBL;description_source_acc=G4LXI5
+SM_V10_3	WormBase_imported	mRNA	9565798	9580733	.	-	.	ID=transcript:Smp_124490.1;Parent=gene:Smp_124490;Name=Smp_124490.1;info=method:InterPro accession:IPR001680 description:WD40 repeat %0Amethod:InterPro accession:IPR015943 description:WD40/YVTN repeat-like-containing domain superfamily %0Amethod:InterPro accession:IPR019775 description:WD40 repeat%2C conserved site %0Amethod:InterPro accession:IPR036322 description:WD40-repeat-containing domain superfamily
+SM_V10_3	WormBase_imported	exon	9578967	9580733	.	-	.	ID=exon:Smp_124490.1.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	exon	9576198	9576454	.	-	.	ID=exon:Smp_124490.1.2;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	exon	9575922	9576146	.	-	.	ID=exon:Smp_124490.1.3;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	exon	9573904	9573969	.	-	.	ID=exon:Smp_124490.1.4;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	exon	9565798	9566407	.	-	.	ID=exon:Smp_124490.1.5;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9579081	9580733	.	-	.	Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	CDS	9578967	9579080	.	-	0	ID=cds:Smp_124490.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	CDS	9576198	9576454	.	-	0	ID=cds:Smp_124490.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	CDS	9575922	9576146	.	-	1	ID=cds:Smp_124490.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	CDS	9573904	9573969	.	-	1	ID=cds:Smp_124490.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	CDS	9566014	9566407	.	-	1	ID=cds:Smp_124490.1;Parent=transcript:Smp_124490.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9565798	9566013	.	-	.	Parent=transcript:Smp_124490.1
+###
+# Gene gene:Smp_124510
+SM_V10_3	WormBase_imported	gene	9374862	9389805	.	+	.	ID=gene:Smp_124510;Name=Smp_124510;biotype=protein_coding;description=Fibronectin type-III domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KKT3
+SM_V10_3	WormBase_imported	mRNA	9374862	9389805	.	+	.	ID=transcript:Smp_124510.1;Parent=gene:Smp_124510;Name=Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9374862	9374997	.	+	.	ID=exon:Smp_124510.1.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9376682	9376875	.	+	.	ID=exon:Smp_124510.1.2;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9382130	9382259	.	+	.	ID=exon:Smp_124510.1.3;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9384321	9384578	.	+	.	ID=exon:Smp_124510.1.4;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9388345	9388533	.	+	.	ID=exon:Smp_124510.1.5;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	exon	9389575	9389805	.	+	.	ID=exon:Smp_124510.1.6;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9374862	9374898	.	+	.	Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9374899	9374997	.	+	0	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9376682	9376875	.	+	0	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9382130	9382259	.	+	1	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9384321	9384578	.	+	0	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9388345	9388533	.	+	0	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	CDS	9389575	9389739	.	+	0	ID=cds:Smp_124510.1;Parent=transcript:Smp_124510.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9389740	9389805	.	+	.	Parent=transcript:Smp_124510.1
+###
+# Gene gene:Smp_124520
+SM_V10_3	WormBase_imported	gene	9304867	9338244	.	+	.	ID=gene:Smp_124520;Name=Smp_124520;biotype=protein_coding;description=EF-hand domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KKR3
+SM_V10_3	WormBase_imported	mRNA	9304867	9338244	.	+	.	ID=transcript:Smp_124520.1;Parent=gene:Smp_124520;Name=Smp_124520.1;info=method:InterPro accession:IPR002048 description:EF-hand domain %0Amethod:InterPro accession:IPR018247 description:EF-Hand 1%2C calcium-binding site
+SM_V10_3	WormBase_imported	exon	9304867	9307563	.	+	.	ID=exon:Smp_124520.1.1;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	exon	9321395	9321535	.	+	.	ID=exon:Smp_124520.1.2;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	exon	9337228	9338244	.	+	.	ID=exon:Smp_124520.1.3;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9304867	9305726	.	+	.	Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	CDS	9305727	9307563	.	+	0	ID=cds:Smp_124520.1;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	CDS	9321395	9321535	.	+	2	ID=cds:Smp_124520.1;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	CDS	9337228	9337298	.	+	2	ID=cds:Smp_124520.1;Parent=transcript:Smp_124520.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9337299	9338244	.	+	.	Parent=transcript:Smp_124520.1
+###
+# Gene gene:Smp_167400
+SM_V10_3	WormBase_imported	gene	9718482	9736504	.	-	.	ID=gene:Smp_167400;Name=Smp_167400;biotype=protein_coding;description=Myogenic factor%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KSL8
+SM_V10_3	WormBase_imported	mRNA	9718482	9736504	.	-	.	ID=transcript:Smp_167400.1;Parent=gene:Smp_167400;Name=Smp_167400.1;info=method:InterPro accession:IPR002546 description:Myogenic muscle-specific protein%2C N-terminal %0Amethod:InterPro accession:IPR011598 description:Myc-type%2C basic helix-loop-helix (bHLH) domain %0Amethod:InterPro accession:IPR036638 description:Helix-loop-helix DNA-binding domain superfamily %0Amethod:InterPro accession:IPR039704 description:Myogenic factor
+SM_V10_3	WormBase_imported	exon	9733074	9736504	.	-	.	ID=exon:Smp_167400.1.1;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	exon	9728001	9728735	.	-	.	ID=exon:Smp_167400.1.2;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	exon	9723904	9724015	.	-	.	ID=exon:Smp_167400.1.3;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	exon	9718482	9718890	.	-	.	ID=exon:Smp_167400.1.4;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9735381	9736504	.	-	.	Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	CDS	9733074	9735380	.	-	0	ID=cds:Smp_167400.1;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	CDS	9728001	9728735	.	-	0	ID=cds:Smp_167400.1;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	CDS	9723904	9724015	.	-	0	ID=cds:Smp_167400.1;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	CDS	9718820	9718890	.	-	2	ID=cds:Smp_167400.1;Parent=transcript:Smp_167400.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9718482	9718819	.	-	.	Parent=transcript:Smp_167400.1
+###
+# Gene gene:Smp_167410
+SM_V10_3	WormBase_imported	gene	9754342	9771584	.	-	.	ID=gene:Smp_167410;Name=Smp_167410;biotype=protein_coding;description=Cell division cycle protein 123 homolog;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KSB8
+SM_V10_3	WormBase_imported	mRNA	9754342	9771584	.	-	.	ID=transcript:Smp_167410.1;Parent=gene:Smp_167410;Name=Smp_167410.1;info=method:InterPro accession:IPR009772 description:Cell division cycle protein 123
+SM_V10_3	WormBase_imported	exon	9771561	9771584	.	-	.	ID=exon:Smp_167410.1.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9768956	9768999	.	-	.	ID=exon:Smp_167410.1.2;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9768812	9768908	.	-	.	ID=exon:Smp_167410.1.3;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9768702	9768770	.	-	.	ID=exon:Smp_167410.1.4;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9767785	9767827	.	-	.	ID=exon:Smp_167410.1.5;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9763373	9763417	.	-	.	ID=exon:Smp_167410.1.6;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9763235	9763330	.	-	.	ID=exon:Smp_167410.1.7;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9763092	9763198	.	-	.	ID=exon:Smp_167410.1.8;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9762900	9763039	.	-	.	ID=exon:Smp_167410.1.9;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9761075	9761197	.	-	.	ID=exon:Smp_167410.1.10;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9760993	9761021	.	-	.	ID=exon:Smp_167410.1.11;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9760830	9760937	.	-	.	ID=exon:Smp_167410.1.12;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9759258	9759395	.	-	.	ID=exon:Smp_167410.1.13;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	exon	9754342	9754447	.	-	.	ID=exon:Smp_167410.1.14;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9771561	9771584	.	-	.	Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9768956	9768999	.	-	.	Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9768886	9768908	.	-	.	Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9768812	9768885	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9768702	9768770	.	-	1	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9767785	9767827	.	-	1	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9763373	9763417	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9763235	9763330	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9763092	9763198	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9762900	9763039	.	-	1	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9761075	9761197	.	-	2	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9760993	9761021	.	-	2	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9760830	9760937	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9759258	9759395	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	CDS	9754421	9754447	.	-	0	ID=cds:Smp_167410.1;Parent=transcript:Smp_167410.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9754342	9754420	.	-	.	Parent=transcript:Smp_167410.1
+###
+# Gene gene:Smp_167430
+SM_V10_3	WormBase_imported	gene	9787956	9801331	.	+	.	ID=gene:Smp_167430;Name=Smp_167430;biotype=protein_coding;description=PPP1R35_C domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KS98
+SM_V10_3	WormBase_imported	mRNA	9787956	9801331	.	+	.	ID=transcript:Smp_167430.1;Parent=gene:Smp_167430;Name=Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9787956	9788039	.	+	.	ID=exon:Smp_167430.1.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9789201	9789298	.	+	.	ID=exon:Smp_167430.1.2;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9792957	9793237	.	+	.	ID=exon:Smp_167430.1.3;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9795716	9795865	.	+	.	ID=exon:Smp_167430.1.4;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9797667	9797819	.	+	.	ID=exon:Smp_167430.1.5;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9799927	9800240	.	+	.	ID=exon:Smp_167430.1.6;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	exon	9801050	9801331	.	+	.	ID=exon:Smp_167430.1.7;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9787956	9788039	.	+	.	Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9789201	9789204	.	+	.	Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9789205	9789298	.	+	0	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9792957	9793237	.	+	2	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9795716	9795865	.	+	0	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9797667	9797819	.	+	0	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9799927	9800240	.	+	0	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	CDS	9801050	9801296	.	+	1	ID=cds:Smp_167430.1;Parent=transcript:Smp_167430.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9801297	9801331	.	+	.	Parent=transcript:Smp_167430.1
+###
+# Gene gene:Smp_167450
+SM_V10_3	WormBase_imported	gene	9868146	9914774	.	+	.	ID=gene:Smp_167450;Name=Smp_167450;biotype=protein_coding;description=Acid sensing ion channel 4%2C pituitary%2C putative;description_source=UniProtKB/TrEMBL;description_source_acc=A0A3Q0KSB5;previous_stable_id=Smp_167440
+SM_V10_3	WormBase_imported	mRNA	9868146	9914774	.	+	.	ID=transcript:Smp_167450.1;Parent=gene:Smp_167450;Name=Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9868146	9869179	.	+	.	ID=exon:Smp_167450.1.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9881269	9881514	.	+	.	ID=exon:Smp_167450.1.2;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9885683	9885859	.	+	.	ID=exon:Smp_167450.1.3;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9891178	9891272	.	+	.	ID=exon:Smp_167450.1.4;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9896891	9897165	.	+	.	ID=exon:Smp_167450.1.5;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9899285	9899381	.	+	.	ID=exon:Smp_167450.1.6;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9901663	9902000	.	+	.	ID=exon:Smp_167450.1.7;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9906121	9907034	.	+	.	ID=exon:Smp_167450.1.8;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9908732	9908823	.	+	.	ID=exon:Smp_167450.1.9;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9911147	9911254	.	+	.	ID=exon:Smp_167450.1.10;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	exon	9914282	9914774	.	+	.	ID=exon:Smp_167450.1.11;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9868146	9868235	.	+	.	Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9868236	9869179	.	+	0	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9881269	9881514	.	+	1	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9885683	9885859	.	+	1	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9891178	9891272	.	+	1	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9896891	9897165	.	+	2	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9899285	9899381	.	+	0	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9901663	9902000	.	+	2	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9906121	9907034	.	+	0	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9908732	9908823	.	+	1	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9911147	9911254	.	+	2	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	CDS	9914282	9914289	.	+	2	ID=cds:Smp_167450.1;Parent=transcript:Smp_167450.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9914290	9914774	.	+	.	Parent=transcript:Smp_167450.1
+###
+# Gene gene:Smp_307880
+SM_V10_3	WormBase_imported	gene	9085794	9212341	.	-	.	ID=gene:Smp_307880;Name=Smp_307880;biotype=protein_coding;description=VWFA domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A5K4F679;previous_stable_id=Smp_124540,Smp_124530,Smp_124550
+SM_V10_3	WormBase_imported	mRNA	9085794	9212341	.	-	.	ID=transcript:Smp_307880.1;Parent=gene:Smp_307880;Name=Smp_307880.1;info=method:InterPro accession:IPR002035 description:von Willebrand factor%2C type A %0Amethod:InterPro accession:IPR013608 description:VWA N-terminal %0Amethod:InterPro accession:IPR013680 description:Voltage-dependent calcium channel%2C alpha-2/delta subunit%2C conserved region %0Amethod:InterPro accession:IPR036465 description:von Willebrand factor A-like domain superfamily
+SM_V10_3	WormBase_imported	exon	9212091	9212341	.	-	.	ID=exon:Smp_307880.1.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9207205	9207327	.	-	.	ID=exon:Smp_307880.1.2;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9199909	9199968	.	-	.	ID=exon:Smp_307880.1.3;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9195771	9195906	.	-	.	ID=exon:Smp_307880.1.4;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9182277	9182396	.	-	.	ID=exon:Smp_307880.1.5;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9177544	9177598	.	-	.	ID=exon:Smp_307880.1.6;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9175884	9175934	.	-	.	ID=exon:Smp_307880.1.7;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9171832	9171931	.	-	.	ID=exon:Smp_307880.1.8;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9169333	9169440	.	-	.	ID=exon:Smp_307880.1.9;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9168369	9168458	.	-	.	ID=exon:Smp_307880.1.10;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9163099	9163224	.	-	.	ID=exon:Smp_307880.1.11;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9159937	9160015	.	-	.	ID=exon:Smp_307880.1.12;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9159380	9159429	.	-	.	ID=exon:Smp_307880.1.13;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9149413	9149523	.	-	.	ID=exon:Smp_307880.1.14;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9148750	9148797	.	-	.	ID=exon:Smp_307880.1.15;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9147857	9147934	.	-	.	ID=exon:Smp_307880.1.16;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9144421	9144495	.	-	.	ID=exon:Smp_307880.1.17;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9134576	9134650	.	-	.	ID=exon:Smp_307880.1.18;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9133881	9133952	.	-	.	ID=exon:Smp_307880.1.19;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9133242	9133303	.	-	.	ID=exon:Smp_307880.1.20;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9131542	9131648	.	-	.	ID=exon:Smp_307880.1.21;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9125135	9126025	.	-	.	ID=exon:Smp_307880.1.22;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9122116	9122266	.	-	.	ID=exon:Smp_307880.1.23;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9115964	9116076	.	-	.	ID=exon:Smp_307880.1.24;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9113765	9114202	.	-	.	ID=exon:Smp_307880.1.25;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9110730	9110878	.	-	.	ID=exon:Smp_307880.1.26;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9108525	9108595	.	-	.	ID=exon:Smp_307880.1.27;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9102227	9102311	.	-	.	ID=exon:Smp_307880.1.28;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9101414	9101505	.	-	.	ID=exon:Smp_307880.1.29;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9098787	9098818	.	-	.	ID=exon:Smp_307880.1.30;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9095815	9096114	.	-	.	ID=exon:Smp_307880.1.31;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	exon	9085794	9086190	.	-	.	ID=exon:Smp_307880.1.32;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9212241	9212341	.	-	.	Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9212091	9212240	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9207205	9207327	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9199909	9199968	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9195771	9195906	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9182277	9182396	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9177544	9177598	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9175884	9175934	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9171832	9171931	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9169333	9169440	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9168369	9168458	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9163099	9163224	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9159937	9160015	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9159380	9159429	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9149413	9149523	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9148750	9148797	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9147857	9147934	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9144421	9144495	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9134576	9134650	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9133881	9133952	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9133242	9133303	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9131542	9131648	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9125135	9126025	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9122116	9122266	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9115964	9116076	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9113765	9114202	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9110730	9110878	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9108525	9108595	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9102227	9102311	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9101414	9101505	.	-	0	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9098787	9098818	.	-	1	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9095815	9096114	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	CDS	9086003	9086190	.	-	2	ID=cds:Smp_307880.1;Parent=transcript:Smp_307880.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9085794	9086002	.	-	.	Parent=transcript:Smp_307880.1
+###
+# Gene gene:Smp_314500
+SM_V10_3	WormBase_imported	gene	9467221	9564218	.	+	.	ID=gene:Smp_314500;Name=Smp_314500;biotype=protein_coding;description=Peptidase M12B domain-containing protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A5K4F784;previous_stable_id=Smp_124500
+SM_V10_3	WormBase_imported	mRNA	9467221	9564218	.	+	.	ID=transcript:Smp_314500.1;Parent=gene:Smp_314500;Name=Smp_314500.1;info=method:InterPro accession:IPR000884 description:Thrombospondin type-1 (TSP1) repeat %0Amethod:InterPro accession:IPR001590 description:Peptidase M12B%2C ADAM/reprolysin %0Amethod:InterPro accession:IPR010294 description:ADAMTS/ADAMTS-like%2C Spacer 1 %0Amethod:InterPro accession:IPR012314 description:Peptidase M12B%2C GON-ADAMTSs %0Amethod:InterPro accession:IPR013273 description:ADAMTS/ADAMTS-like %0Amethod:InterPro accession:IPR024079 description:Metallopeptidase%2C catalytic domain superfamily %0Amethod:InterPro accession:IPR036383 description:Thrombospondin type-1 (TSP1) repeat superfamily %0Amethod:InterPro accession:IPR041645 description:ADAMTS%2C cysteine-rich domain 2 %0Amethod:InterPro accession:IPR045371 description:ADAMTS/ADAMTS-like%2C cysteine-rich domain 3
+SM_V10_3	WormBase_imported	exon	9467221	9468775	.	+	.	ID=exon:Smp_314500.1.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9478100	9478266	.	+	.	ID=exon:Smp_314500.1.2;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9484221	9484287	.	+	.	ID=exon:Smp_314500.1.3;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9486217	9486725	.	+	.	ID=exon:Smp_314500.1.4;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9488830	9488916	.	+	.	ID=exon:Smp_314500.1.5;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9490194	9490321	.	+	.	ID=exon:Smp_314500.1.6;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9492319	9492341	.	+	.	ID=exon:Smp_314500.1.7;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9493389	9493494	.	+	.	ID=exon:Smp_314500.1.8;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9495778	9496068	.	+	.	ID=exon:Smp_314500.1.9;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9498222	9498390	.	+	.	ID=exon:Smp_314500.1.10;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9501914	9502015	.	+	.	ID=exon:Smp_314500.1.11;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9508300	9508445	.	+	.	ID=exon:Smp_314500.1.12;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9510333	9510396	.	+	.	ID=exon:Smp_314500.1.13;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9512725	9512815	.	+	.	ID=exon:Smp_314500.1.14;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9514482	9514612	.	+	.	ID=exon:Smp_314500.1.15;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9515627	9515768	.	+	.	ID=exon:Smp_314500.1.16;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9515879	9515989	.	+	.	ID=exon:Smp_314500.1.17;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9516701	9516846	.	+	.	ID=exon:Smp_314500.1.18;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9522397	9522712	.	+	.	ID=exon:Smp_314500.1.19;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9525199	9525659	.	+	.	ID=exon:Smp_314500.1.20;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9526228	9526854	.	+	.	ID=exon:Smp_314500.1.21;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9529386	9529733	.	+	.	ID=exon:Smp_314500.1.22;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9531711	9531953	.	+	.	ID=exon:Smp_314500.1.23;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9533882	9534169	.	+	.	ID=exon:Smp_314500.1.24;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9536129	9536410	.	+	.	ID=exon:Smp_314500.1.25;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9539395	9539571	.	+	.	ID=exon:Smp_314500.1.26;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9540899	9541037	.	+	.	ID=exon:Smp_314500.1.27;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9542416	9542507	.	+	.	ID=exon:Smp_314500.1.28;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9546425	9546516	.	+	.	ID=exon:Smp_314500.1.29;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9551203	9551441	.	+	.	ID=exon:Smp_314500.1.30;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9556266	9556357	.	+	.	ID=exon:Smp_314500.1.31;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9559189	9559296	.	+	.	ID=exon:Smp_314500.1.32;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	exon	9562255	9564218	.	+	.	ID=exon:Smp_314500.1.33;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9467221	9468477	.	+	.	Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9468478	9468775	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9478100	9478266	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9484221	9484287	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9486217	9486725	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9488830	9488916	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9490194	9490321	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9492319	9492341	.	+	1	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9493389	9493494	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9495778	9496068	.	+	1	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9498222	9498390	.	+	1	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9501914	9502015	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9508300	9508445	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9510333	9510396	.	+	1	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9512725	9512815	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9514482	9514612	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9515627	9515768	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9515879	9515989	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9516701	9516846	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9522397	9522712	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9525199	9525659	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9526228	9526854	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9529386	9529733	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9531711	9531953	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9533882	9534169	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9536129	9536410	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9539395	9539571	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9540899	9541037	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9542416	9542507	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9546425	9546516	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9551203	9551441	.	+	1	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9556266	9556357	.	+	2	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9559189	9559296	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	CDS	9562255	9562344	.	+	0	ID=cds:Smp_314500.1;Parent=transcript:Smp_314500.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9562345	9564218	.	+	.	Parent=transcript:Smp_314500.1
+###
+# Gene gene:Smp_325760
+SM_V10_3	WormBase_imported	gene	9234028	9236123	.	-	.	ID=gene:Smp_325760;Name=Smp_325760;biotype=protein_coding;description=Secreted protein;description_source=UniProtKB/TrEMBL;description_source_acc=A0A5K4F6J6
+SM_V10_3	WormBase_imported	mRNA	9234028	9236123	.	-	.	ID=transcript:Smp_325760.1;Parent=gene:Smp_325760;Name=Smp_325760.1
+SM_V10_3	WormBase_imported	exon	9234028	9236123	.	-	.	ID=exon:Smp_325760.1.1;Parent=transcript:Smp_325760.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9235068	9236123	.	-	.	Parent=transcript:Smp_325760.1
+SM_V10_3	WormBase_imported	CDS	9234837	9235067	.	-	0	ID=cds:Smp_325760.1;Parent=transcript:Smp_325760.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9234028	9234836	.	-	.	Parent=transcript:Smp_325760.1
+###
+# Gene gene:Smp_325770
+SM_V10_3	WormBase_imported	gene	9287758	9288343	.	-	.	ID=gene:Smp_325770;Name=Smp_325770;biotype=protein_coding
+SM_V10_3	WormBase_imported	mRNA	9287758	9288343	.	-	.	ID=transcript:Smp_325770.1;Parent=gene:Smp_325770;Name=Smp_325770.1
+SM_V10_3	WormBase_imported	exon	9287758	9288343	.	-	.	ID=exon:Smp_325770.1.1;Parent=transcript:Smp_325770.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9288249	9288343	.	-	.	Parent=transcript:Smp_325770.1
+SM_V10_3	WormBase_imported	CDS	9288051	9288248	.	-	0	ID=cds:Smp_325770.1;Parent=transcript:Smp_325770.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9287758	9288050	.	-	.	Parent=transcript:Smp_325770.1
+###
+# Gene gene:Smp_325790
+SM_V10_3	WormBase_imported	gene	9428870	9435890	.	-	.	ID=gene:Smp_325790;Name=Smp_325790;biotype=protein_coding
+SM_V10_3	WormBase_imported	mRNA	9428870	9435890	.	-	.	ID=transcript:Smp_325790.1;Parent=gene:Smp_325790;Name=Smp_325790.1
+SM_V10_3	WormBase_imported	exon	9435718	9435890	.	-	.	ID=exon:Smp_325790.1.1;Parent=transcript:Smp_325790.1
+SM_V10_3	WormBase_imported	exon	9428870	9429421	.	-	.	ID=exon:Smp_325790.1.2;Parent=transcript:Smp_325790.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9435718	9435890	.	-	.	Parent=transcript:Smp_325790.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9429074	9429421	.	-	.	Parent=transcript:Smp_325790.1
+SM_V10_3	WormBase_imported	CDS	9428981	9429073	.	-	0	ID=cds:Smp_325790.1;Parent=transcript:Smp_325790.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9428870	9428980	.	-	.	Parent=transcript:Smp_325790.1
+###
+# Gene gene:Smp_341390
+SM_V10_3	WormBase_imported	gene	9696742	9699001	.	+	.	ID=gene:Smp_341390;Name=Smp_341390;biotype=protein_coding;description=Hexosyltransferase;description_source=UniProtKB/TrEMBL;description_source_acc=A0A5K4FD24;previous_stable_id=Smp_083430
+SM_V10_3	WormBase_imported	mRNA	9696742	9699001	.	+	.	ID=transcript:Smp_341390.1;Parent=gene:Smp_341390;Name=Smp_341390.1
+SM_V10_3	WormBase_imported	exon	9696742	9699001	.	+	.	ID=exon:Smp_341390.1.1;Parent=transcript:Smp_341390.1
+SM_V10_3	WormBase_imported	five_prime_UTR	9696742	9696797	.	+	.	Parent=transcript:Smp_341390.1
+SM_V10_3	WormBase_imported	CDS	9696798	9698321	.	+	0	ID=cds:Smp_341390.1;Parent=transcript:Smp_341390.1
+SM_V10_3	WormBase_imported	three_prime_UTR	9698322	9699001	.	+	.	Parent=transcript:Smp_341390.1
