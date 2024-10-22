@@ -49,8 +49,7 @@ apollo assembly \
   ./data/Schistosoma/mansoni/SM_V10_3/smansoni_SM_v10_3.fa.gz \
   --fai ./data/Schistosoma/mansoni/SM_V10_3/smansoni_SM_v10_3.fa.gz.fai \
   --gzi ./data/Schistosoma/mansoni/SM_V10_3/smansoni_SM_v10_3.fa.gz.gzi \
-  --assembly 'Schistosoma mansoni' \
-  --not-editable
+  --assembly 'Schistosoma mansoni'
 ```
 
 Now that we have an assembly, lets add the annotations we want to curate. They
@@ -59,7 +58,7 @@ are stored in a GFF3 file. Run this command to import the annotations:
 ```sh
 apollo feature \
   import \
-  --input-file ./data/Schistosoma/mansoni/SM_V10_3/smansoni_SM_v10_3_subset.gff3 \
+  ./data/Schistosoma/mansoni/SM_V10_3/smansoni_SM_v10_3_subset.gff3 \
   --assembly 'Schistosoma mansoni'
 ```
 
@@ -73,12 +72,11 @@ apollo assembly \
   ./data/Schistosoma/haematobium/CHR_3/shaematobium_CHR_3.fa.gz \
   --fai ./data/Schistosoma/haematobium/CHR_3/shaematobium_CHR_3.fa.gz.fai \
   --gzi ./data/Schistosoma/haematobium/CHR_3/shaematobium_CHR_3.fa.gz.gzi \
-  --assembly 'Schistosoma haematobium' \
-  --not-editable
+  --assembly 'Schistosoma haematobium'
 
 apollo feature \
   import \
-  --input-file ./data/Schistosoma/haematobium/CHR_3/shaematobium_CHR_3_subset.gff3 \
+  ./data/Schistosoma/haematobium/CHR_3/shaematobium_CHR_3_subset.gff3 \
   --assembly 'Schistosoma haematobium'
 ```
 
