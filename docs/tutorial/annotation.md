@@ -13,7 +13,7 @@ put the above region in the location box and press "Enter".
 
 Click "Open track selector"
 
-Select track called "Annotations (Schistosoma mansoni)
+Select track called "Annotations (Schistosoma mansoni)"
 
 Try out clicking and dragging to move back and forth, as well as using the arrow
 buttons in the header. Also try out clicking the zoom buttons.
