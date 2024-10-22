@@ -2,20 +2,23 @@ We'll need to do a little configuration to get GitPod to host Apollo correctly.
 First open a terminal and run:
 
 ```sh
-gp url
+echo $(gp url 80)/apollo/
 ```
 
 Now open the file `compose.yml` and put the URL that was printed in the `URL`
-placeholder on line 10. You'll then need to add `80-` to the beginning of the
-URL and `/apollo/` at the end of the URL. So if the URL you got was
-https://thebgacadem-apollo3anno-3aysn3477f9.ws-us189.gitpod.io, then line 10
-should look like:
+placeholder on line 10. It should look something like this, although your exact
+values will be slightly different:
 
 ```yml
 URL: "https://80-thebgacadem-apollo3anno-3aysn3477f9.ws-us189.gitpod.io/apollo/"
 ```
 
-Now in the terminal, run `docker compose up`.
+> [!TIP]
+> If you are following these instructions on your local computer (not in
+GitPod), you can use `http://localhost/apollo/` as your URL.
+
+
+Now in the terminal, run `cd apollo3-annotation/` and `docker compose up`.
 
 Open a new terminal for the rest of the commands. The first step is to configure
 the Apollo CLI with the information for the running Apollo installation. You can

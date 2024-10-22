@@ -1,5 +1,20 @@
-To get to Apollo, under the "Ports" tab at the bottom of GitPod, find the port
-labeled "80" and click on the icon "Open in browser" for that port.
+To open Apollo, run the following command in the terminal:
+
+```sh
+gp preview --external $(gp url 80)
+```
+
+> [!IMPORTANT]
+> You may have to allow popups in your browser for this to work.
+
+> [!TIP]
+> Another way of opening Apollo is to look under the "Ports" tab at the bottom
+of GitPod, find the port labeled "80", and click on the "Open browser" icon for
+that port.
+
+> [!TIP]
+> If you are following these instructions on your local computer, open a new tab
+and navigate to `http://localhost`.
 
 Click on Linear Genome View on the JBrowse start screen.
 
@@ -34,7 +49,7 @@ row, change then "end" value to `9659388`, and then do the same for the "mRNA"
 column.
 
 We could also do the same for the exon, but we'll do it a different way as a
-demonstraction. Right-click on the exon and choose "Edit feature details".
+demonstration. Right-click on the exon and choose "Edit feature details".
 Change the "End" box in the new panel to `9659388` and see that the exon
 extends.
 
@@ -56,11 +71,13 @@ the top and copy the link. You can also use this for coming back to the same
 view later.
 
 Now close the synteny view, select "Linear genome view" and click "Launch view".
-Enter `SM_V10_3:9,657,491..9,659,958` in the location box again and click
-"Open". Open the track selector and the annotations track. Somewhere to the side
-of the existing gene, click and drag an area in the ruler and then select "Add
-new feature". Look a the possible ontology types suggested, and then choose
-"match". On the new feature, click "Add child feature" and choose the
-coordinates and "Match part" as the type.
+This time we'll enter the gene's ID, `Smp_124460`, into the search box and click
+"Open." You can also try searching for `ATPase` and see that there are two
+matches for that term. The one we're working on is the first match.
 
-Now right-click ont the "match" feature and select "Delete feature".
+Somewhere to the side of the existing gene, click and drag an area in the ruler
+and then select "Add new feature". Look a the possible ontology types suggested,
+ and then choose "match". On the new feature, click "Add child feature" and
+choose the coordinates and "Match part" as the type.
+
+Now right-click on the "match" feature and select "Delete feature".
